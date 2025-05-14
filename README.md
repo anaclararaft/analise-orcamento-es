@@ -1,16 +1,16 @@
-# Análise do Orçamento Público do Espírito Santo
+# Análise do Orçamento Público do ES - EM CONSTRUÇÃO
 
-Este projeto consolida, padroniza e analisa os dados de orçamento público do Estado do Espírito Santo entre os anos de 2015 e 2022. A partir de arquivos brutos por função e subfunção, o pipeline realiza a normalização dos dados, aplica deflacionamento com base no IPCA, mapeia áreas temáticas (macroáreas) e gera indicadores consolidados para análise de políticas públicas e planejamento orçamentário.
+Este projeto, ainda em andamento, pretende consolidar, padronizar e analisar os dados de orçamento público do Estado do Espírito Santo. A partir de arquivos brutos por função e subfunção, o pipeline realiza a normalização dos dados, aplica deflacionamento com base no IPCA, mapeia áreas temáticas (macroáreas) e gera indicadores consolidados para análise de políticas públicas e planejamento orçamentário.
 
 ## 🛠 Funcionalidades principais
 
 - Leitura incremental de arquivos por ano e categoria
 - Padronização de textos e categorias (funções, subfunções, fontes de recursos)
 - Mapeamento de funções para macroáreas temáticas (educação, saúde, etc.)
-- Deflacionamento com base no IPCA, ano base 2022
+- Deflacionamento com IGP-DI e no base.
 - Geração de indicadores por ano, macroárea e categoria de gasto
 - Exportação de resultados consolidados para uso em dashboards ou relatórios
-- Arquitetura modular: cada etapa do processo é separada em scripts próprios para manutenção e reuso
+- Arquitetura modular: cada etapa do processo é separada em scripts próprios para manutenção e reuso.
 
 ## 📁 Estrutura do projeto
 
