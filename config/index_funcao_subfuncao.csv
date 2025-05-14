@@ -1,0 +1,110 @@
+﻿codigo_funcao,funcao,codigo_subfuncao,subfuncao
+1,legislativa,31,acao legislativa
+1,legislativa,32,controle externo
+2,judiciaria,61,acao judiciaria
+2,judiciaria,62,defesa do interesse publico no processo judiciario
+3,essencial a justica,91,defesa da ordem juridica
+3,essencial a justica,92,representacao judicial e extrajudicial
+4,administracao,121,planejamento e orcamento
+4,administracao,122,administracao geral
+4,administracao,123,administracao financeira
+4,administracao,124,controle interno
+4,administracao,125,normatizacao e fiscalizacao
+4,administracao,126,tecnologia da informacao
+4,administracao,127,ordenamento territorial
+4,administracao,128,formacao de recursos humanos
+4,administracao,129,administracao de receitas
+4,administracao,130,administracao de concessoes
+4,administracao,131,comunicacao social
+5,defesa nacional,151,defesa aerea
+5,defesa nacional,152,defesa naval
+5,defesa nacional,153,defesa terrestre
+6,seguranca publica,181,policiamento
+6,seguranca publica,182,defesa civil
+6,seguranca publica,183,informacao e inteligencia
+7,relacoes exteriores,211,relacoes diplomaticas
+7,relacoes exteriores,212,cooperacao internacional
+8,assistencia social,241,assistencia ao idoso
+8,assistencia social,242,assistencia ao portador de deficiencia
+8,assistencia social,243,assistencia a crianca e ao adolescente
+8,assistencia social,244,assistencia comunitaria
+9,previdencia social,271,previdencia basica
+9,previdencia social,272,previdencia do regime estatutario
+9,previdencia social,273,previdencia complementar
+9,previdencia social,274,previdencia especial
+10,saude,301,atencao basica
+10,saude,302,assistencia hospitalar e ambulatorial
+10,saude,303,suporte profilatico e terapeutico
+10,saude,304,vigilancia sanitaria
+10,saude,305,vigilancia epidemiologica
+10,saude,306,alimentacao e nutricao
+11,trabalho,331,protecao e beneficios ao trabalhador
+11,trabalho,332,relacoes de trabalho
+11,trabalho,333,empregabilidade
+11,trabalho,334,fomento ao trabalho
+12,educacao,361,ensino fundamental
+12,educacao,362,ensino medio
+12,educacao,363,ensino profissional
+12,educacao,364,ensino superior
+12,educacao,365,educacao infantil
+12,educacao,366,educacao de jovens e adultos
+12,educacao,367,educacao especial
+12,educacao,368,educacao basica
+13,cultura,391,patrimonio historico artistico e arqueologico
+13,cultura,392,difusao cultural
+14,direitos da cidadania,421,custodia e reintegracao social
+14,direitos da cidadania,422,direitos individuais coletivos e difusos
+14,direitos da cidadania,423,assistencia aos povos indigenas
+15,urbanismo,451,infraestrutura urbana
+15,urbanismo,452,servicos urbanos
+15,urbanismo,453,transportes coletivos urbanos
+16,habitacao,481,habitacao rural
+16,habitacao,482,habitacao urbana
+17,saneamento,511,saneamento basico rural
+17,saneamento,512,saneamento basico urbano
+18,gestao ambiental,541,preservacao e conservacao ambiental
+18,gestao ambiental,542,controle ambiental
+18,gestao ambiental,543,recuperacao de areas degradadas
+18,gestao ambiental,544,recursos hidricos
+18,gestao ambiental,545,meteorologia
+19,ciencia e tecnologia,571,desenvolvimento cientifico
+19,ciencia e tecnologia,572,desenvolvimento tecnologico e engenharia
+19,ciencia e tecnologia,573,difusao do conhecimento cientifico e tecnologico
+20,agricultura,605,abastecimento
+20,agricultura,606,extensao rural
+20,agricultura,607,irrigacao
+20,agricultura,608,promocao da producao agropecuaria
+20,agricultura,609,defesa agropecuaria
+21,organizacao agraria,631,reforma agraria
+21,organizacao agraria,632,colonizacao
+22,industria,661,promocao industrial
+22,industria,662,producao industrial
+22,industria,663,mineracao
+22,industria,664,propriedade industrial
+22,industria,665,normalizacao e qualidade
+23,comercio e servicos,691,promocao comercial
+23,comercio e servicos,692,comercializacao
+23,comercio e servicos,693,comercio exterior
+23,comercio e servicos,694,servicos financeiros
+23,comercio e servicos,695,turismo
+24,comunicacoes,721,comunicacoes postais
+24,comunicacoes,722,telecomunicacoes
+25,energia,751,conservacao de energia
+25,energia,752,energia eletrica
+25,energia,753,combustiveis minerais
+25,energia,754,biocombustiveis
+26,transporte,781,transporte aereo
+26,transporte,782,transporte rodoviario
+26,transporte,783,transporte ferroviario
+26,transporte,784,transporte hidroviario
+26,transporte,785,transportes especiais
+27,desporto e lazer,811,desporto de rendimento
+27,desporto e lazer,812,desporto comunitario
+27,desporto e lazer,813,lazer
+28,encargos especiais,841,refinanciamento da divida interna
+28,encargos especiais,842,refinanciamento da divida externa
+28,encargos especiais,843,servico da divida interna
+28,encargos especiais,844,servico da divida externa
+28,encargos especiais,845,outras transferencias
+28,encargos especiais,846,outros encargos especiais
+28,encargos especiais,847,transferencias para a educacao basica

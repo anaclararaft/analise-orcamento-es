@@ -1,0 +1,28 @@
+dados/entrada/*.csv          ──► leitor.py
+                             └──► normalizador.py
+                                     ↓
+                              mapeador.py (index_funcao_subfuncao.csv)
+                                     ↓
+                 +─── deflacionador.py (indices_deflacao.txt)
+                 │
+                 +─── totais.py (Total Geral e Parcial)
+                 │
+                 +─── utilitarios.py (busca, macroareas.yaml)
+                                     ↓
+    +─── dados/tabelas_adicionais/*.csv (merge)
+    ↓
+ exportador.py   ──► temporario/banco_<ano>_<data>_<hora>.csv
+                 └──► extratos/extrato_<ano>_<data>_<hora>.txt
+
+
+| Módulo               | Função                                                                                                                                                         |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `leitor.py`          | Lê `.csv`, extrai ano do nome, filtra colunas relevantes                                                                                                       |
+| `normalizador.py`    | Remove acentos, símbolos e formata texto padrão                                                                                                                |
+| `mapeador.py`        | Insere os códigos correspondentes de função e subfunção com base no `index_funcao_subfuncao.csv` (ex: "hospital" → `codigo_funcao=10`, `codigo_subfuncao=302`) |
+| `deflacionador.py`   | Lê `indices_deflacao.txt` e aplica deflatores com base no ano base                                                                                             |
+| `tabelas_adicionais` | Lê planilhas manuais (ex: gasto tributário) e funde ao dataset base                                                                                            |
+| `utilitarios.py`     | Filtro por palavra-chave e agrupamento por macroáreas (`.yaml`)                                                                                                |
+| `totais.py`          | Adiciona linha de Total Geral e Total Parcial                                                                                                                  |
+| `exportador.py`      | Exporta para `temporario/` com nome padrão, e gera extrato `.txt`                                                                                              |
+| `main.py`            | CLI que orquestra tudo, com interações e confirmações                                                                                                          |
